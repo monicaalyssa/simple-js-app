@@ -23,3 +23,7 @@ which is the quotient of the original size divded by 2 */
 
 let minSize = (doubleSize * 2) - (size / 2);
 document.write(minSize);
+
+
+let favoriteFood = 'Pasta';
+document.write(favoriteFood);
