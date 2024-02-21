@@ -9,3 +9,16 @@ background-color: lightgray;
 }
 
 
+#pokemon {
+    width: 300px;
+    background-color:thistle;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#pokemon:hover {
+    background-color: lightblue;
+}
+
