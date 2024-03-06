@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1">
-        <title>Pokédex</title>
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
-        <link rel="icon" type="image/png" href="images/pokemon-icon.svg">
-    </head>
-    <body>
-        <header>
-        <div class="page__header">
-        <h1 class="page__title">Pokédex</h1>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="icon" type="image/png" href="images/pokemon-icon.svg">
+</head>
+
+<body>
+    <header id="page__header">
+
+        <div class="page__header__item">
+        <img src="/images/pokemon-icon.svg" alt="Pokemon logo" id="page__logo">
+        <h1 id="page__title">Pokédex</h1>
         </div>
-        </header>
-        <div id="pokemon">
-            <h2>Pokemon Name</h2>
-            <p>Height:</p>
-            <p>Type:</p>
+
+        <div class="page__header__item" id="search__bar">
+            <div id="search__container">
+            <img src="#" alt="Search Icon" id="search__icon">
+            </div>
         </div>
-        <script src="js/scripts.js"></script>
-    </body>
+
+    </header>
+
+    <div id="line"></div>
+
+    <div id="body">
+
+        <div id="search__by">
+            <h4 class="search__by" id="search__by__name">Search by name</h4>
+            <h4 class="search__by" id="search__by__number">Search by number</h4>
+            <h4 class="search__by" id="search__by__hp">Search by hp</h4>
+            <h4 class="search__by" id="search__by__height">Search by height</h4>
+        </div>
+
+        <div id="spacer"></div>
+
+        <div id="pokemons__grid">
+        <div class="grid__item" id="pokemon1">
+            Pokemon #1
+        </div>
+        <div class="grid__item" id="pokemon2">
+            Pokemon #2
+        </div>
+        <div class="grid__item" id="pokemon3">
+            Pokemon #3
+        </div>
+        <div class="grid__item" id="pokemon4">
+            Pokemon #4
+        </div>
+        <div class="grid__item" id="pokemon5">
+            Pokemon #5
+        </div>
+        <div class="grid__item" id="pokemon6">
+            Pokemon #6
+        </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
